@@ -39,6 +39,21 @@ header {
 }
 header h2 { color: #42D9C8; font-size: 1.3rem; font-weight: 500; }
 header a, footer a { color: #42D9C8; }
+/* Header layout */
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Profile picture */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #42D9C8;
+}
+
 
 /* Center resume content and keep sections easy to read */
 main { max-width: 1000px; margin: 36px auto; padding: 0 20px; }
